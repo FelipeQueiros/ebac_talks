@@ -1,0 +1,35 @@
+@use '../variables';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap; /* Dira ao css se ele deve ou nao quebrar a linha */
+
+
+    &--primary {
+        color: #fff;
+        background-color: variables.$purple;
+        
+    }
+
+    @media (max-width:640px) {
+        display: block;
+
+        &__infos{
+            display: block;
+
+            &__item{
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+        &__infos{
+            gap: 16px;
+        }
+    }
+}
