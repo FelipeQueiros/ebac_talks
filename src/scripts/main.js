@@ -1,7 +1,7 @@
 AOS.init();
 
 /* Criando a data do evento */
-const dataDoEvento = new Date("Dec 12, 2025 19:00:00"); /* Criamos uma varável do tipo data, apontando para uma data futura */
+const dataDoEvento = new Date("Sep 01, 2025 19:00:00"); /* Criamos uma varável do tipo data, apontando para uma data futura */
 const timeStampDoEvento = dataDoEvento.getTime(); /* Aqui pegaremos a timeStamp, o registro único deste momento em dados */
 
 const contaAsHoras = setInterval (function() {

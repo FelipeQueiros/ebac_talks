@@ -14,11 +14,11 @@
         }
 
         &--data-science {
-            background-image: linear-gradient(variables.$pink, variables.$yellow);
+            background-image: linear-gradient(variables.$pink, variables.$pink);
         }
 
         &--backend {
-            background-image: linear-gradient(variables.$yellow, variables.$pink);
+            background-image: linear-gradient(variables.$pink, variables.$blue1);
         }
 
         &--image-left {
